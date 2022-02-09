@@ -1,15 +1,14 @@
 
 # Auto Layout
-
-https://www.udemy.com/course/ios-mobil-uygulama-gelistirme-egitimi-swift/learn/lecture/16369978?start=405#overview
+https://www.udemy.com/course/ios-gelistirme-kursu/ - Video 130. Auto Layout 
 
 ## Topics
 
 Auto Layout, Constraints
 
-## Challenges
+## Challenge
 
-Create 4 colors. Devide screen 4 equal parts
+Create 4 colors. Divide screen 4 equal parts
 
 ## Screenshots
 
