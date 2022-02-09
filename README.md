@@ -12,4 +12,4 @@ https://www.udemy.com/course/ios-gelistirme-kursu/
 
 Projects / Topics                                   | Screenshots
 ---                                                 |---
-[Auto Layout](fourColors) - *Auto Layout*    </sub> | ![screen1](fourColors/screenshots/small/screen01.png) ![screen2](fourColors/screenshots/small/screen02.png) 
+[Four Colors](fourColors) - *Auto Layout*    </sub> | ![screen1](fourColors/screenshots/small/screen01.png) ![screen2](fourColors/screenshots/small/screen02.png) 
