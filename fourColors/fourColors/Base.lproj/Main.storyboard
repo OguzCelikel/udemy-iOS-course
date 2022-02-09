@@ -16,17 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0JS-Ip-P7b">
+                            <view contentMode="scaleToFill" restorationIdentifier=" " translatesAutoresizingMaskIntoConstraints="NO" id="0JS-Ip-P7b" userLabel="yellow">
                                 <rect key="frame" x="0.0" y="44" width="207" height="409"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Pi-hW-68U">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Pi-hW-68U" userLabel="red">
                                 <rect key="frame" x="207" y="44" width="207" height="409"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6hQ-9y-QTv">
-                                <rect key="frame" x="0.0" y="461" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6hQ-9y-QTv" userLabel="purple">
+                                <rect key="frame" x="0.0" y="453" width="207" height="409"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HOd-oP-yQx" userLabel="blue">
+                                <rect key="frame" x="207" y="453" width="207" height="409"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -35,12 +39,18 @@
                             <constraint firstItem="3Pi-hW-68U" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="2le-jc-7d0"/>
                             <constraint firstItem="3Pi-hW-68U" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="ApN-2e-cPP"/>
                             <constraint firstItem="6hQ-9y-QTv" firstAttribute="top" secondItem="0JS-Ip-P7b" secondAttribute="bottom" id="EBT-ro-VbR"/>
+                            <constraint firstItem="HOd-oP-yQx" firstAttribute="leading" secondItem="6hQ-9y-QTv" secondAttribute="trailing" id="NRq-SJ-3PN"/>
                             <constraint firstItem="3Pi-hW-68U" firstAttribute="leading" secondItem="0JS-Ip-P7b" secondAttribute="trailing" id="ORH-Nc-qSD"/>
                             <constraint firstItem="0JS-Ip-P7b" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="brB-lU-49w"/>
                             <constraint firstItem="0JS-Ip-P7b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cwZ-rP-jKG"/>
+                            <constraint firstItem="HOd-oP-yQx" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="daw-VA-gRw"/>
+                            <constraint firstItem="6hQ-9y-QTv" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="dwM-xi-4LM"/>
+                            <constraint firstItem="HOd-oP-yQx" firstAttribute="top" secondItem="3Pi-hW-68U" secondAttribute="bottom" id="k92-tr-Ync"/>
+                            <constraint firstItem="6hQ-9y-QTv" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="kZF-DR-5BH"/>
                             <constraint firstItem="0JS-Ip-P7b" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="kmZ-qu-ubf"/>
                             <constraint firstItem="6hQ-9y-QTv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lRa-QE-H83"/>
                             <constraint firstItem="0JS-Ip-P7b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qBA-M1-5Q9"/>
+                            <constraint firstItem="HOd-oP-yQx" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="sir-kI-ZN8"/>
                             <constraint firstItem="3Pi-hW-68U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xfN-ud-Har"/>
                         </constraints>
                     </view>
@@ -59,6 +69,9 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
