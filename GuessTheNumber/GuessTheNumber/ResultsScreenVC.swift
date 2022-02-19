@@ -9,6 +9,7 @@ import UIKit
 
 class ResultsScreenVC: UIViewController {
 
+    @IBOutlet var imageViewResult: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

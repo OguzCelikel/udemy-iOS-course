@@ -34,7 +34,7 @@
                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="SAm-aF-w2j" kind="show" id="z3r-cp-8fe"/>
+                                    <segue destination="SAm-aF-w2j" kind="show" id="aiV-Pd-pfD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -89,6 +89,9 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="24"/>
                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="guess:" destination="SAm-aF-w2j" eventType="touchUpInside" id="dkr-V6-n8d"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Guess" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kPs-cN-uk2">
                                 <rect key="frame" x="77" y="384" width="260" height="75"/>
@@ -118,7 +121,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="0pp-AN-flx"/>
                     <connections>
-                        <segue destination="G2V-jB-Vns" kind="show" id="Qpp-Su-5MD"/>
+                        <outlet property="labelIncrease" destination="eyb-pe-cR5" id="hok-IX-sn4"/>
+                        <outlet property="labelRemaining" destination="oUf-g8-lJ7" id="znx-nv-1Tl"/>
+                        <outlet property="textFieldEnter" destination="kPs-cN-uk2" id="oIe-o5-ZrC"/>
+                        <segue destination="G2V-jB-Vns" kind="show" id="22g-m6-rfo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vyJ-9T-yqo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -162,6 +168,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cLg-gW-Iaa"/>
+                    <connections>
+                        <outlet property="imageViewResult" destination="b3y-U3-Zsi" id="UB8-J8-FYR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZrB-3u-MHP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
