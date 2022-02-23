@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F63C2CAE27C5179A008BC1A9 /* TahminEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C2CAD27C5179A008BC1A9 /* TahminEkraniVC.swift */; };
+		F63C2CB227C517FC008BC1A9 /* SonucEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C2CB127C517FC008BC1A9 /* SonucEkraniVC.swift */; };
 		F6EE2EE827C18D81008311F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2EE727C18D81008311F5 /* AppDelegate.swift */; };
 		F6EE2EEA27C18D81008311F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2EE927C18D81008311F5 /* SceneDelegate.swift */; };
 		F6EE2EEC27C18D81008311F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2EEB27C18D81008311F5 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F63C2CAD27C5179A008BC1A9 /* TahminEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahminEkraniVC.swift; sourceTree = "<group>"; };
+		F63C2CB127C517FC008BC1A9 /* SonucEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkraniVC.swift; sourceTree = "<group>"; };
 		F6EE2EE427C18D81008311F5 /* guessTheNumbersGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guessTheNumbersGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EE2EE727C18D81008311F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6EE2EE927C18D81008311F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,9 +64,11 @@
 				F6EE2EE927C18D81008311F5 /* SceneDelegate.swift */,
 				F6EE2EEB27C18D81008311F5 /* ViewController.swift */,
 				F6EE2EED27C18D81008311F5 /* Main.storyboard */,
+				F63C2CB127C517FC008BC1A9 /* SonucEkraniVC.swift */,
 				F6EE2EF027C18D82008311F5 /* Assets.xcassets */,
 				F6EE2EF227C18D82008311F5 /* LaunchScreen.storyboard */,
 				F6EE2EF527C18D82008311F5 /* Info.plist */,
+				F63C2CAD27C5179A008BC1A9 /* TahminEkraniVC.swift */,
 			);
 			path = guessTheNumbersGame;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63C2CB227C517FC008BC1A9 /* SonucEkraniVC.swift in Sources */,
 				F6EE2EEC27C18D81008311F5 /* ViewController.swift in Sources */,
 				F6EE2EE827C18D81008311F5 /* AppDelegate.swift in Sources */,
 				F6EE2EEA27C18D81008311F5 /* SceneDelegate.swift in Sources */,
+				F63C2CAE27C5179A008BC1A9 /* TahminEkraniVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
